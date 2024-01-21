@@ -12,7 +12,7 @@ export type SmallResponse =
     status: number
   }
 
-export interface BareClient {
+export interface BareTransport {
   connect: (
     url: URL,
     protocols: [string],
